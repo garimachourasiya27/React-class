@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "id": "7adc",
+      "rollno": "111",
+      "name": "fdjgh",
+      "city": "bhopal",
+      "fees": "5652"
+    },
+    {
+      "id": "991d",
+      "rollno": "145",
+      "name": "mona",
+      "city": "indore",
+      "fees": "45670"
+    },
+    {
+      "id": "f10e",
+      "rollno": "146",
+      "name": "rohan",
+      "city": "pune",
+      "fees": "60540"
+    }
+  ]
+}

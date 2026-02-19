@@ -58,8 +58,11 @@ import Home from "./pages/Home"
 import Insert from "./pages/insert"
 import Display from "./pages/Display"
 import Update from "./pages/Update"
+import MyEdit from "./pages/MyEdit"
+import Search from "./pages/Search"
 
 const App=()=>{
+
 
 
 
@@ -73,9 +76,13 @@ const App=()=>{
             <Route path ="insert" element={<Insert/>} />
             <Route path = "display" element={<Display/>}/>
             <Route path = "update" element={<Update/>}/>
+             <Route path = "myEdit/:id" element={<MyEdit/>}/>
+             <Route path = "search" element={<Search/>}/>
+
             </Route>
          </Routes>
          </BrowserRouter>
+        
         
         
         </>

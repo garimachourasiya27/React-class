@@ -14,6 +14,11 @@ return(
    <Link  to ="Display">Display</Link>  
    <br />
     <Link  to ="Update">Update</Link>  
+    <br />
+    <Link  to ="MyEdit">MyEdit</Link
+    >
+    <br />
+  <Link  to ="Search">Search</Link>
  <hr />
  <Outlet/>
  <hr />

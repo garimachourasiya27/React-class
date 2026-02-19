@@ -1,7 +1,9 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Update=()=>{
     const [mydata , setMydata]= useState([]);
+    const navigate = useNavigate();
     const loadData = async ()=>{
         let api = "http://localhost:3000/students"
         const response = await axios.get(api);
@@ -31,7 +33,7 @@ const Update=()=>{
                <td>{key.city}</td>
                 <td>{key.fees}</td>
       <td>
-        <button> Edit</button>
+        <button onClick={()=>{navigate(`/myedit/${key.id}`)}}> Edit</button>
       </td>
       <td>
         <button onClick={()=>{myDel(key.id)}}>Delete</button>
